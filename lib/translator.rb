@@ -7,7 +7,7 @@ def load_library(path)
 
     memo[value[1]] = value[0]
     
-    p memo
+    
   end 
   japenese_emoticons
 end
