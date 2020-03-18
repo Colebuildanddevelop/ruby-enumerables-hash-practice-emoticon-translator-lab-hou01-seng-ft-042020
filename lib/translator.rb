@@ -6,7 +6,7 @@ def load_library(path)
   japenese_emoticons = emoticons.reduce({}) do |memo, (key, value)|
     puts memo[value[1]]
   end 
-  p japenese_emoticons
+  japenese_emoticons
 end
 
 def get_japanese_emoticon(traditional_emoticon)
