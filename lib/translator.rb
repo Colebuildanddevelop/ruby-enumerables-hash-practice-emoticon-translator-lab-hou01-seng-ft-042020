@@ -4,7 +4,7 @@ def load_library(path)
   require "yaml"
   emoticons = YAML.load_file(path)
   japenese_emoticons = emoticons.reduce({}) do |memo, (key, value)|
-    memo[value[1]] = value[0] unless value == nil
+    memo[value[1]]
   end 
   p japenese_emoticons
 end
